@@ -1,16 +1,43 @@
-# bible
+## MyBible - Flutter Application
 
-A new Flutter project.
+MyBible is a Flutter application designed to provide users with easy access to various Bible versions and related resources. This guide will help you set up the project on your local machine.
 
-## Getting Started
+### Getting Started
 
-This project is a starting point for a Flutter application.
+To get started with the MyBible app, follow the instructions below to set up your environment and run the application.
 
-A few resources to get you started if this is your first Flutter project:
+### Prerequisites
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Before you can run the app, ensure you have the following installed on your machine:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [Flutter](https://flutter.dev/docs/get-started/install) SDK
+- [Dart](https://dart.dev/get-dart)
+- A suitable code editor (e.g., [Visual Studio Code](https://code.visualstudio.com/))
+
+### Setting Up the Environment
+
+To securely store sensitive information like your `CLIENTID` and `CLIENTSECRET`, you'll need to create an environment file in the project's main folder.
+
+1. **Create the Environment File:**
+
+   In the root directory of the project, create a file named `secret.env`.
+
+   ```bash
+   touch secret.env
+   
+2. **Add the following lines to `secret.env`:**
+
+   ```env
+   CLIENTID=your-spotify-client-id
+   CLIENTSECRET=your-spotify-client-secret
+   
+Replace your-spotify-client-id and your-spotify-client-secret with your actual credentials from the Spotify API.
+### Running the Application
+
+With the environment set up, you can now run the application:
+
+1. **Ensure all dependencies are installed:**
+
+   ```bash
+   flutter pub get
+   flutter run
