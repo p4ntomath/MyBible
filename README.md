@@ -1,6 +1,6 @@
 ## MyBible - Flutter Application
 
-MyBible is a Flutter application designed to for users to access bible verses,get daily gospel music and recommendations and also verses of the day.
+MyBible is a Flutter application designed for users to access bible verses,get daily gospel music and recommendations and also verses of the day.
 
 ### Getting Started
 
