@@ -28,8 +28,8 @@ To securely store sensitive information like your `CLIENTID` and `CLIENTSECRET`,
 2. **Add the following lines to `secret.env`:**
 
    ```env
-   CLIENTID=your-spotify-client-id
-   CLIENTSECRET=your-spotify-client-secret
+   CLIENTID = your-spotify-client-id
+   CLIENTSECRET = your-spotify-client-secret
    
 Replace your-spotify-client-id and your-spotify-client-secret with your actual credentials from the Spotify API.
 ### Running the Application
